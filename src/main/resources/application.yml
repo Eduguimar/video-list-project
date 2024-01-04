@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: default
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: videoproject
+      username: user
+      password: user
+      authentication-database: admin
